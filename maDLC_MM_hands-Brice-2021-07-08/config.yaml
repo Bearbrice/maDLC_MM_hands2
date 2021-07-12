@@ -10,18 +10,18 @@ project_path: C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01.mp4:
-    crop: 0, 852, 0, 480
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02.mp4:
-    crop: 0, 852, 0, 480
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03.mp4:
-    crop: 0, 852, 0, 480
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05.mp4:
-    crop: 0, 852, 0, 480
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06.mp4:
-    crop: 0, 852, 0, 480
-  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\VPers2.mp4:
-    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06_cropped.mp4:
+    crop: 0, 400, 0, 400
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\VPers2_cropped.mp4:
+    crop: 0, 400, 0, 400
 individuals:
 - leftHand
 - rightHand
@@ -297,7 +297,7 @@ batch_size: 8
 
     # Cropping Parameters (for analysis and outlier frame detection)
 cropping: false
-croppedtraining: false
+croppedtraining: true
     #if cropping is true for analysis, then set the values here:
 x1: 0
 x2: 640
@@ -309,3 +309,16 @@ corner2move2:
 - 50
 - 50
 move2corner: true
+video_sets_original:
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil01.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil02.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil03.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil05.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\Pil06.mp4:
+    crop: 0, 852, 0, 480
+  C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08\videos\VPers2.mp4:
+    crop: 0, 852, 0, 480
