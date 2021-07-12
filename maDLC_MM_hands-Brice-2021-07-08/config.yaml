@@ -6,7 +6,7 @@ multianimalproject: true
 identity: false
 
     # Project path (change when moving around)
-project_path: C:\Users\brice\DLC\Projects\maDLC_MM_hands2\maDLC_MM_hands-Brice-2021-07-08
+project_path: /content/maDLC_MM_hands2/maDLC_MM_hands-Brice-2021-07-08
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
