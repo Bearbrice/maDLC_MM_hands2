@@ -1,5 +1,4 @@
 ![Software](https://img.shields.io/badge/software-DeepLabCut-blueviolet)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![LastCommit](https://img.shields.io/github/last-commit/bearbrice/maDLC_MM_hands2)
 [![Colaboratory](https://colab.research.google.com/assets/colab-badge.svg "Colaboratory maDLC-2")](https://colab.research.google.com/github/Bearbrice/maDLC_MM_hands2/blob/main/examples/COLAB_maDLC_TrainNetwork_VideoAnalysis.ipynb)
 
@@ -12,5 +11,3 @@ This is a custom maDLC project. This project is used as a base and contains labe
 * Lauer et al. 2021: https://www.biorxiv.org/content/10.1101/2021.04.30.442096v1
 * Brice Berclaz
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/) :octocat:
